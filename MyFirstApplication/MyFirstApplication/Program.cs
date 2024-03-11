@@ -12,9 +12,10 @@ return;
 static double GetAverage(int[] numbers)
 {
     double sum = 0;
-    foreach (var elem in numbers)
+
+    foreach (var number in numbers)
     {
-        sum += elem;
+        sum += number;
     }
 
     return sum / numbers.Length;
